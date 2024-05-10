@@ -1,3 +1,3 @@
 # simple-eda-py
 
-SimpleEDAのデータ加工用のPythonサーバー
+SimpleEDAのデータ加工用のPythonAPIサーバー
