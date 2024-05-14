@@ -1,6 +1,7 @@
-from api import create_app
+from api import create_app, load_config
 
-app = create_app()  # Flaskアプリケーションを作成
+config = load_config()
+app = create_app(config)
 
 if __name__ == "__main__":
-    app.run()  # アプリケーションを実行
+    app.run(host=config.HOST, port=config.PORT)
