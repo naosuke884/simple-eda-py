@@ -1,9 +1,8 @@
-from flask import Flask, jsonify
-from config import Config
+from flask import Flask
 
 app = Flask(__name__)
 
 
 @app.route("/")
 def index():
-    return jsonify(message="Hello from Flask on Vercel!")
+    return "HELLO WORLD"
